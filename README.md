@@ -51,15 +51,17 @@ To get started with **SpringpotTune**, follow these steps:
    ```
 
 This package includes the following files:
-* Main_VOSpringpot_Calibration1.m --- Calibrates the variable-order springpot model parameters (elastic modulus, viscosity, initial & asymptotic fractional orders, characteristic time, deformation rate) to experimental creep data
-* Main_VOSpringpot_Calibration2.m --- Performs a second calibration stage using a phenomenological equation to capture the load-dependent behavior of the mechanical properties. This script uses the CEopt black-box package (without exposing the internal CEopt code) and compares the calibrated phenomenological curve against reference values obtained from the first calibration
-* Main_VOSpringpot_StrainCurves.m --- Computes and plots the strain evolution curve for a chosen material (PP or PVC) and load using the calibrated variable-order springpot model. The script reads the experimental data from CSV files, automatically discovers the available loads, and then filters the data for the selected load value
+* MainCarSuspensionAssymDesign_CE.m - Main script that performs scenario-driven optimization of passive vehicle suspensions with asymmetric damping using the Cross-Entropy method. Defines operating scenarios (road class, speed, vehicle mass), optimization settings, and calls the objective function and dynamic simulations.
+* MainCarSuspensionDynamics.m - Runs time-domain simulations of the quarter-car model under stochastic (ISO 8608) and deterministic (step and bump) road excitations. Computes sprung-mass acceleration, tire–ground contact force, and transient response metrics.
+* QuarterCarModel.m - Implements the nonlinear quarter-car model with asymmetric damping and unilateral tire contact.
+* ObjFunc.m - Defines the scalar objective function used in optimization, combining weighted RMS acceleration, tire–ground contact force variability, and reference targets for scenario-driven trade-off analysis.
+* isoWdFilter.m - Generates stochastic road profiles based on ISO 8608 spatial power spectral density classes. Converts spatial profiles into time signals according to vehicle speed.
+* SmoothStep_Tanh.m - Smooth step function based on hyperbolic tangent, used to regularize discontinuities in transient road inputs (step and bump profiles).
+* SoftPlus.m - Numerically stable SoftPlus function used as a smooth approximation of $\max(0,x)$ for regularizing unilateral tire contact and non-smooth nonlinearities.
+* dSoftPlus.m - Derivative of the stable SoftPlus function, provided for completeness and post-processing consistency.
+* SmoothAbs.m - Smooth approximation of the absolute value function, used to regularize non-smooth objective-function components.
+* dSmoothAbs.m - Derivative of the smooth absolute value function, provided for completeness and post-processing consistency.
 * CEopt.m -- Cross-entropy solver
-* CreepDataPP.csv: Contains creep test data for polypropylene (PP) with columns for load (MPa), time (days), and strain (%)
-CreepDataPVC.csv: Contains creep test data for polyvinyl chloride (PVC) with columns for load (MPa), time (days), and strain (%)
-* PlotSemilogx2.m -- Auxiliary function to plot two curves from given datasets in semilogx scale
-* PlotLoglog2.m -- Auxiliary function to plot two curves from given datasets in loglog scale
-* Plot2.m -- Auxiliary function to plot two curves from given datasets in linear scale
 
 ### Documentation
 The routines in **OptSusp** are well-commented to explain their functionality. Each routine includes a description of its purpose, inputs, and outputs. 

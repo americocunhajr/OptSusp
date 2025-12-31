@@ -1,6 +1,6 @@
 ## Optimization of Vehicle Suspensions
 
-**OptSusp: Optimization of Vehicle Suspensions** is a Matlab package designed to ...
+**OptSusp: Optimization of Vehicle Suspensions** is a Matlab package designed to benchmark and optimize passive quarter-car suspensions under standardized stochastic and transient road excitations, combining ISO-based performance metrics with Cross-Entropy global optimization to reveal when asymmetric damping becomes an optimal, scenario-dependent design choice.
 
 <p align="center">
 <img src="logo/SpringpotTuneFramework.png" width="65%">
@@ -15,36 +15,39 @@
 - [Documentation](#documentation)
 - [Reproducibility](#reproducibility)
 - [Authors](#authors)
-- [Citing FracTune](#citing-fractune)
+- [Citing OptSusp](#citing-optsusp)
 - [License](#license)
 - [Institutional support](#institutional-support)
 - [Funding](#funding)
 
 ### Overview
-**OptSusp** was developed to ... The underlying results are reported in the following publication:
+**OptSusp** was developed to provide a flexible, reproducible MATLAB framework for simulating and optimizing passive vehicle suspension systems, with a particular focus on asymmetric damping, ride comfort, road holding, and transient performance under realistic driving scenarios. The underlying results are reported in the following publication:
 - *J. G. Telles Ribeiro and A. Cunha Jr, Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping, 2026 (under review)*
 
 Preprint available here.
 
 ### Features
-- Implements the Cross-Entropy method for fitting variable-order springpot models
-- Transparent "gray-box" optimizer offering intuitive control over key parameters
-- Robust and scalable for moderately complex fitting problems in rheological systems
-- Demonstrated versatility and effectiveness through case studies of variable-order fractional models
+- Implements the Cross-Entropy (CE) method for the optimization of passive vehicle suspension parameters
+- Supports asymmetric damping configurations with independent rebound and compression tuning
+- Scenario-driven framework combining stochastic road excitation and transient analysis
+- Simulation-based, gray-box optimization with intuitive and physically meaningful control parameters
+- Robust to non-convex, non-smooth objective functions arising from nonlinear vehicle dynamics
+- Modular MATLAB implementation built around a quarter-car model, facilitating extension and reuse
+- Designed for systematic exploration of comfort–safety–transient trade-offs in suspension design
 
 ### Usage
 To get started with **SpringpotTune**, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/americocunhajr/SpringpotTune.git
+   git clone https://github.com/americocunhajr/OptSusp.git
    ```
 2. Navigate to the code directory:
    ```bash
-   cd SpringpotTune/SpringpotTune-1.0
+   cd OptSusp/OptSusp-1.0
    ```
-3. To calibrate the Springpot model, execute the main file:
+3. To optimize the car suspension, execute the main file:
    ```bash
-   Main_VOSpringpot_Calibration1
+   MainCarSuspensionAssymDesign_CE
    ```
 
 This package includes the following files:

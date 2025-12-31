@@ -56,7 +56,7 @@ This package includes the following files:
 * QuarterCarModel.m - Implements the nonlinear quarter-car model with asymmetric damping and unilateral tire contact.
 * ObjFunc.m - Defines the scalar objective function used in optimization, combining weighted RMS acceleration, tire–ground contact force variability, and reference targets for scenario-driven trade-off analysis.
 * isoWdFilter.m - Generates stochastic road profiles based on ISO 8608 spatial power spectral density classes. Converts spatial profiles into time signals according to vehicle speed.
-* SmoothStep_Tanh.m - Smooth step function based on hyperbolic tangent, used to regularize discontinuities in transient road inputs (step and bump profiles).
+* TanhStep.m - Smooth step function based on hyperbolic tangent, used to regularize discontinuities in transient road inputs (step and bump profiles).
 * SoftPlus.m - Numerically stable SoftPlus function used as a smooth approximation of $\max(0,x)$ for regularizing unilateral tire contact and non-smooth nonlinearities.
 * dSoftPlus.m - Derivative of the stable SoftPlus function, provided for completeness and post-processing consistency.
 * SmoothAbs.m - Smooth approximation of the absolute value function, used to regularize non-smooth objective-function components.

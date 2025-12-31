@@ -57,6 +57,7 @@ This package includes the following files:
 * ObjFunc.m - Defines the scalar objective function used in optimization, combining weighted RMS acceleration, tire–ground contact force variability, and reference targets for scenario-driven trade-off analysis.
 * isoWdFilter.m - Generates stochastic road profiles based on ISO 8608 spatial power spectral density classes. Converts spatial profiles into time signals according to vehicle speed.
 * TanhStep.m - Smooth step function based on hyperbolic tangent, used to regularize discontinuities in transient road inputs (step and bump profiles).
+* dTanhStep.m - Derivative of the smooth step value function, provided for completeness and post-processing consistency.
 * SoftPlus.m - Numerically stable SoftPlus function used as a smooth approximation of $\max(0,x)$ for regularizing unilateral tire contact and non-smooth nonlinearities.
 * dSoftPlus.m - Derivative of the stable SoftPlus function, provided for completeness and post-processing consistency.
 * SmoothAbs.m - Smooth approximation of the absolute value function, used to regularize non-smooth objective-function components.

@@ -22,7 +22,7 @@
 
 ### Overview
 **OptSusp** was developed to provide a flexible, reproducible MATLAB framework for simulating and optimizing passive vehicle suspension systems, with a particular focus on asymmetric damping, ride comfort, road holding, and transient performance under realistic driving scenarios. The underlying results are reported in the following publication:
-- *J. G. Telles Ribeiro and A. Cunha Jr, Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping, 2026 (under review)*
+- *J. G. Telles Ribeiro and A. Cunha Jr, Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping, Journal of Vibration Engineering and Technologies, 2026 (under review)*
 
 Preprint available here.
 
@@ -77,15 +77,15 @@ Simulations done with **OptSusp** are fully reproducible, as can be seen on this
 
 ### Citing OptSusp
 We ask the package users to cite the following manuscript in any publications reporting work done with our code or data:
-- *J. G. Telles Ribeiro and A. Cunha Jr, Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping, 2026 (under review)*
+- *J. G. Telles Ribeiro and A. Cunha Jr, Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping, Journal of Vibration Engineering and Technologies, 2026 (under review)*
 
 ```
 @article{TellesRibeiro2026OptSusp,
    author  = {J. G. {Telles Ribeiro} and A. {Cunha~Jr}},
    title   = "{Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping}",
-   journal = {Under Review},
+   journal = {Journal of Vibration Engineering and Technologies},
    year    = {2026},
-   volume  = {~},
+   volume  = {Under Review},
    pages   = {~},
    doi    = {~},
 }

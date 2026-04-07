@@ -106,3 +106,9 @@ We ask the package users to cite the following manuscript in any publications re
 ### Funding
 
 <img src="logos/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logos/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logos/faperj.png" width="25%">
+
+### Contact
+For any questions or further information, please contact the authors at:
+
+- José Geraldo Telles Ribeiro: telles@eng.uerj.br
+- Americo Cunha Jr: americo@lncc.br

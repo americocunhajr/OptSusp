@@ -98,7 +98,7 @@ We ask the package users to cite the following manuscript in any publications re
 
 ### Institutional support
 
-<img src="logos/logo_uerj.png" width="13%"> &nbsp; &nbsp; &nbsp; <img src="logo/logo_lncc.png" width="25%">
+<img src="logos/logo_uerj.png" width="13%"> &nbsp; &nbsp; &nbsp; <img src="logos/logo_lncc.png" width="25%">
 
 ### Funding
 

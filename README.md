@@ -94,12 +94,12 @@ We ask the package users to cite the following manuscript in any publications re
 ### License
 **OptSusp** is released under the MIT license. See the LICENSE file for details. All new contributions must be made under the MIT license.
 
-<img src="logo/mit_license_red.png" width="10%"> 
+<img src="logos/mit_license_red.png" width="10%"> 
 
 ### Institutional support
 
-<img src="logo/logo_uerj.png" width="13%"> &nbsp; &nbsp; &nbsp; <img src="logo/logo_lncc.png" width="25%">
+<img src="logos/logo_uerj.png" width="13%"> &nbsp; &nbsp; &nbsp; <img src="logo/logo_lncc.png" width="25%">
 
 ### Funding
 
-<img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logo/faperj.png" width="25%">
+<img src="logos/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logos/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logos/faperj.png" width="25%">

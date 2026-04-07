@@ -13,12 +13,13 @@
 - [Features](#features)
 - [Usage](#usage)
 - [Documentation](#documentation)
-- [Reproducibility](#reproducibility)
 - [Authors](#authors)
 - [Citing OptSusp](#citing-optsusp)
 - [License](#license)
 - [Institutional support](#institutional-support)
 - [Funding](#funding)
+
+<!--- [Reproducibility](#reproducibility) --->
 
 ### Overview
 **OptSusp** was developed to provide a flexible, reproducible MATLAB framework for simulating and optimizing passive vehicle suspension systems, with a particular focus on asymmetric damping, ride comfort, road holding, and transient performance under realistic driving scenarios. The underlying results are reported in the following publication:
@@ -67,9 +68,11 @@ This package includes the following files:
 ### Documentation
 The routines in **OptSusp** are well-commented to explain their functionality. Each routine includes a description of its purpose, inputs, and outputs. 
 
+<!--
 ### Reproducibility
 
-Simulations done with **OptSusp** are fully reproducible, as can be seen on this <a href="https://codeocean.com/capsule/xxx/" target="_blank">CodeOcean capsule</a>.
+Simulations done with **OptSusp** are fully reproducible, as can be seen on this <a href="https://codeocean.com/capsule/xxx/" target="_blank">CodeOcean capsule</a>. 
+--->
 
 ### Authors
 - José Geraldo Telles Ribeiro (UERJ)

@@ -3,7 +3,7 @@
 **OptSusp: Optimization of Vehicle Suspensions** is a Matlab package designed to benchmark and optimize passive quarter-car suspensions under standardized stochastic and transient road excitations, combining ISO-based performance metrics with Cross-Entropy global optimization to reveal when asymmetric damping becomes an optimal, scenario-dependent design choice.
 
 <p align="center">
-<img src="logos/OptSup.png" width="65%">
+<img src="logos/OptSupFramework.png" width="65%">
 </p>
 
 **OptSusp** uses as optimization tool the package **CEopt - Cross-Entropy Optimizer**, which can be downloaded at <a href="https://ceopt.org" target="_blank">https://ceopt.org</a>.

@@ -85,7 +85,7 @@ We ask the package users to cite the following manuscript in any publications re
 ```
 @article{TellesRibeiro2026OptSusp,
    author  = {J. G. {Telles Ribeiro} and A. {Cunha~Jr}},
-   title   = "{Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping}",
+   title   = {Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping},
    journal = {Journal of Vibration Engineering and Technologies},
    year    = {2026},
    volume  = {14},

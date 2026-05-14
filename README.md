@@ -88,9 +88,9 @@ We ask the package users to cite the following manuscript in any publications re
    title   = "{Scenario-driven optimization of passive vehicle suspensions: explaining the effectiveness of asymmetric damping}",
    journal = {Journal of Vibration Engineering and Technologies},
    year    = {2026},
-   volume  = {~},
-   pages   = {~},
-   doi    = {~},
+   volume  = {14},
+   number  = {292},
+   doi     = {10.1007/s42417-026-02518-4},
 }
 ```
 
